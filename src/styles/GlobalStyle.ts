@@ -1,17 +1,17 @@
 import { createGlobalStyle } from 'styled-components';
-import normalize from 'styled-normalize';
-import reset from 'styled-reset';
 import { font } from './font';
 import { color } from './color';
+import normalize from 'styled-normalize';
+import { reset } from './reset';
 
 const GlobalStyle = createGlobalStyle`
-    ${normalize}
-    ${reset}
     ${font}
     ${color}
+    ${normalize}
+    ${reset}
 
     span {
-        font-family: 'Noto Sans KR', 'Roboto';
+        font-family: var(--font-main);
         font-weight: 400;
         color: var(--color-blue);
     }
