@@ -1,8 +1,8 @@
 import { css } from 'styled-components';
 
-import NotoSansRegular from '../assets/fonts/NotoSansKR-Regular.ttf';
-import NotoSansSemiBold from '../assets/fonts/NotoSansKR-SemiBold.ttf';
-import NotoSansExtraBold from '../assets/fonts/NotoSansKR-ExtraBold.ttf';
+import NotoSansRegular from '../../assets/fonts/NotoSansKR-Regular.ttf';
+import NotoSansSemiBold from '../../assets/fonts/NotoSansKR-SemiBold.ttf';
+import NotoSansExtraBold from '../../assets/fonts/NotoSansKR-ExtraBold.ttf';
 
 export const font = css`
   @font-face {
@@ -28,6 +28,6 @@ export const font = css`
   }
 
   :root {
-    --font-main: 'Noto Sans KR', sans-serif;
+    --font-main: 8 'Noto Sans KR', sans-serif;
   }
 `;
