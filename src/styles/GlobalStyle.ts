@@ -3,18 +3,16 @@ import { font } from './constants/font';
 import { color } from './constants/color';
 import normalize from 'styled-normalize';
 import { reset } from './base/reset';
+import { breakpoint } from './constants/breakpoint';
 
 const GlobalStyle = createGlobalStyle`
     ${font}
     ${color}
+    ${breakpoint}
+
     ${normalize}
     ${reset}
 
-    span {
-        font-family: var(--font-main);
-        font-weight: 400;
-        color: var(--color-blue);
-    }
 `;
 
 export default GlobalStyle;
