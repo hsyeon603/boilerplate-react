@@ -4,7 +4,7 @@ import NotoSansRegular from '../assets/fonts/NotoSansKR-Regular.ttf';
 import NotoSansSemiBold from '../assets/fonts/NotoSansKR-SemiBold.ttf';
 import NotoSansExtraBold from '../assets/fonts/NotoSansKR-ExtraBold.ttf';
 
-export const fonts = css`
+export const font = css`
   @font-face {
     font-family: 'Noto Sans KR';
     font-style: normal;
