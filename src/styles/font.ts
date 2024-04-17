@@ -26,4 +26,8 @@ export const font = css`
     font-display: swap;
     src: local('NotoSansKR'), url(${NotoSansExtraBold}) format('truetype');
   }
+
+  :root {
+    --font-main: 'Noto Sans KR', sans-serif;
+  }
 `;
