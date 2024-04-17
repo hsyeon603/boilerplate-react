@@ -6,6 +6,7 @@ import { fonts } from './fonts';
 const GlobalStyle = createGlobalStyle`
     ${normalize}
     ${reset}
+    ${fonts}
 `;
 
 export default GlobalStyle;
