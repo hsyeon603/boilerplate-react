@@ -1,6 +1,6 @@
-import { responsive } from './mixins/responsive';
-import { position } from './mixins/position';
-import { flexbox } from './mixins/flexbox';
+import { responsive } from "./mixins/responsive";
+import { position } from "./mixins/position";
+import { flexbox } from "./mixins/flexbox";
 
 const theme = {
   responsive,

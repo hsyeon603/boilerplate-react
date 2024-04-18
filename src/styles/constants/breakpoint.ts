@@ -1,8 +1,8 @@
-import { css } from 'styled-components';
+import { css } from "styled-components";
 
 const point = {
-  md: '768px',
-  lg: '1200px',
+  md: "768px",
+  lg: "1200px",
 };
 
 export const breakpoint = css`

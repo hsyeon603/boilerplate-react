@@ -1,5 +1,5 @@
-import { css } from 'styled-components';
-import { responsivepoint } from '../constants/breakpoint';
+import { css } from "styled-components";
+import { responsivepoint } from "../constants/breakpoint";
 
 type cssParams = Parameters<typeof css>;
 

@@ -1,5 +1,5 @@
-import { styled } from 'styled-components';
-import { grid } from '../styles/constants/grid';
+import { styled } from "styled-components";
+import { grid } from "../styles/constants/grid";
 
 export const Container = styled.div(
   ({ theme }) => `
@@ -16,10 +16,14 @@ export const Container = styled.div(
       max-width: ${grid.lgMaxContainer};
       padding: 0;
     `)}
-  `
+  `,
 );
 
-export const Column = styled.div<{ $smCount?: number; $mdCount?: number; $lgCount?: number }>`
+export const Column = styled.div<{
+  $smCount?: number;
+  $mdCount?: number;
+  $lgCount?: number;
+}>`
   ${({ $smCount }) =>
     $smCount &&
     `width: ${($smCount / grid.lgColumns) * 100}%;
